@@ -1,0 +1,20 @@
+/* Custom styles for larger screens */
+@media (min-width: 1200px) {
+    .custom-class {
+        font-size: 24px; /* Large screens */
+    }
+}
+
+/* Custom styles for tablets and medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .custom-class {
+        font-size: 18px; /* Tablets and medium screens */
+    }
+}
+
+/* Custom styles for mobile screens */
+@media (max-width: 767px) {
+    .custom-class {
+        font-size: 14px; /* Mobile screens */
+    }
+}
